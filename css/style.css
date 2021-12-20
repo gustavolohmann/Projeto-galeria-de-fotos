@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+}
+/*Sessão de login*/
+.body_principal{
+    background-color:#1E90FF;
+}
+.form{
+    max-width:50%;
+    height:250px;
+    border-radius:10px;
+    margin:0 auto;
+    margin-top:250px;
+    
+}
+.titulo_principal{
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.titulo_principal h1{
+    font-weight: 900;
+}
+.inp_login{
+    max-width:50%;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.inp_login input{
+    padding:10px;
+    margin:0 auto;
+    width:350px;
+}
+
+
+.btn-submit button{
+    font-size:15px;
+    display: block;
+    margin:0 auto ;
+    width:300px;
+    height: 25px;
+    border: none;
+    border-radius:5px;
+    background-color:rgb(153, 155, 255);
+    color: #ffff;
+    transition: 2s;
+}
+.btn-submit button:hover{
+    background-color: #1c1c1c;
+}
+
+.link_create{
+    margin-top: 20px;
+    text-align: center;
+    font-size:19px;
+}
+/*header*/
+.cabecalho{
+    max-width: 100%;
+    height:75px;
+    background-color: rgb(188, 188, 255);
+}
+.cabecalho a{
+    text-decoration: none;
+}
+.cabecalho h2{
+    color: inherit;
+    color: #ffff;
+}
+/*index*/
+.insert_pictures{
+    position:absolute;
+    left:80%;
+    top:20%;
+}
+input[type="file"]{
+    display: none;
+}
+button[type="btn"]{
+
+    width:100px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(188, 188, 255);
+    color: #fff;
+}
+label i{
+    padding:10px;
+}
+.image{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width:100%;
+    margin-top:100px;
+    margin-left:50px;
+    margin-right:50px;
+    border: 5px solid #e5e4e2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.show-img{
+    cursor: pointer;
+    padding:10px;
+    width:20%;
+    transition: 2s;
+   
+}
+.show-img:hover{
+    transform: scale(1.1);
+}
+.btn-logout{
+    width:100%;
+    background-color: rgb(188, 188, 255);;
+    padding: 10px;
+}
+.btn-logout button[type="submit"]{
+    display: block;
+    margin-left:75%;
+    text-transform: uppercase;
+    width: 150px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(253, 66, 66);
+    color: #ffff;
+}
+/*Cadastro*/
+.titulo h1{
+    text-align:center;
+}
+.cad-form{
+    margin:0 auto;
+    max-width:50%;
+    margin-top:100px;    
+    border:3px solid rgb(188, 188, 255); 
+    border-radius:25px;
+    overflow: hidden;  
+}
+.cad-form > div{
+    padding:10px;
+}
+input[type="password"],
+input[type="text"],
+button[type="submit"]{
+    display: block;
+    margin: 0 auto;
+}
+input[type="text"]{
+    width:350px;
+    height: 25px;
+    border:1px solid;
+}
+input[type="password"]{
+    width:350px;
+    height: 25px;
+    border:1px solid;
+
+}
+button[type="submit"]{
+    width:250px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(188, 188, 255);
+    color: #fff;
+    transition:1s;
+}
+button[type="submit"]:hover{
+    background-color: #1c1c1c;
+    color: #ffff;
+}
+
+.btn-back{
+    padding:10px 0 10px;
+}
+.btn-back a button{
+    border:none;
+    width:100px;
+    border-radius:10px;
+    background-color:rgb(188, 188, 255);
+    transition: 1s;
+    color: #ffff;
+    
+}
+.btn-back a button:hover{
+    background-color: #1c1c1c;
+}
