@@ -33,7 +33,7 @@ $imagem = $_FILES["foto"];
         } catch(PDOException $e){
             echo "Erro:" . $e->getMessage();
         }
-        header("location:http://localhost/Projeto1/templates/index.php");
+        header("location:http://localhost/Projeto-Galeria-de-Fotos/templates/index.php");
     }
 }
 

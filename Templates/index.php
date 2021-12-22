@@ -21,7 +21,7 @@
 <?php if(isset($produto)):?> 
 <div class="image">
     <?php foreach($produto as $produtos):?>
-            <img class="show-img"src = "http://localhost/Projeto1/img/<?=$produtos["imagem"];?>" alt="Imagem">
+            <img class="show-img"src = "http://localhost/Projeto-Galeria-de-Fotos/img/<?=$produtos["imagem"];?>" alt="Imagem">
     <?php endforeach;?>
 </div>
 <?php endif;?>  

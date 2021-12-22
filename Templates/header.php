@@ -18,6 +18,12 @@ include_once("../config/conn.php");
 </head>
 
 <body>
+    <?php
+        if(!isset($_SESSION["name"])){
+
+            header("http://localhost/Projeto-Galeria-de-Fotos/templates/login.php");
+        }
+    ?>
 <form action="../config/destruir.php" method="GET">
      <div class="btn-logout">
         <button type="submit" name="btn-logout">logout</button>

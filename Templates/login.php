@@ -21,7 +21,6 @@
 		<form action="../config/process.php" method="GET">
 			<div class="inp_login">
 				<input type="text" name="user" id="user" placeholder="Digite seu nome">
-			
 				<input type="password" name="password" id="password" placeholder="Digite sua senha">
 			</div>
 			<div class="btn-submit">

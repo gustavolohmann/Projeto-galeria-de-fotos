@@ -28,11 +28,11 @@ if (!empty($data)){
             echo "Erro:" . $e->getMessage();
         }
         if ($password == $pass_confirm) {
-            header("location:http://localhost/Projeto1/Templates/login.php");
+            header("location:http://localhost/Projeto-Galeria-de-Fotos/Templates/login.php");
             die();
         }else{
             $_SESSION["msn_erro"] = "As senhas devem ser iguais !";
-            header("location:http://localhost/Projeto1/Templates/cadastro.php");
+            header("location:http://localhost/Projeto-Galeria-de-Fotos/Templates/cadastro.php");
             die();
         }
     }

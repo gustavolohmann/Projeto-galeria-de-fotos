@@ -6,15 +6,10 @@
 }
 /*Sessão de login*/
 .body_principal{
-    background-color:#1E90FF;
+    background-color:#3398fd;
 }
 .form{
-    max-width:50%;
-    height:250px;
-    border-radius:10px;
-    margin:0 auto;
-    margin-top:250px;
-    
+    margin-top:15%;
 }
 .titulo_principal{
     max-width: 50%;
@@ -23,21 +18,23 @@
     color: #fff;
 }
 .titulo_principal h1{
-    font-weight: 900;
+    text-transform: uppercase;
 }
-.inp_login{
-    max-width:50%;
+.inp_login {
+    width:500px;
     height: 150px;
     margin: 0 auto;
     padding-top: 10px;
 }
-.inp_login input{
+.inp_login input[type="text"],
+.inp_login input[type="password"]{
     padding:10px;
-    margin:0 auto;
+    margin-top:20px;
+    height: 30px;
+    border:1px solid #b9b9b8;
+    border-radius: 3px;
     width:350px;
 }
-
-
 .btn-submit button{
     font-size:15px;
     display: block;
@@ -55,6 +52,7 @@
 }
 
 .link_create{
+    color: #fff;
     margin-top: 20px;
     text-align: center;
     font-size:19px;

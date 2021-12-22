@@ -28,10 +28,10 @@ function UserAcess(){
         }
         if ($stmt != 0) {
             $_SESSION["name"] = $global["user"];
-            header("location:http://localhost/Projeto1/templates/index.php");
+            header("location:http://localhost/Projeto-Galeria-de-Fotos/templates/index.php");
             die();
         } else {
-            header("location:http://localhost/Projeto1/templates/login.php");
+            header("location:http://localhost/Projeto-Galeria-de-Fotos/templates/login.php");
             die();
         }
     }
