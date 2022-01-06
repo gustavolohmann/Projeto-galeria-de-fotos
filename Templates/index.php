@@ -2,12 +2,12 @@
     include_once("header.php");
     
     $produto = [];
+    
     $query = "SELECT * FROM fotos";
     $stmt = $conn->prepare($query);
     $stmt->execute();
 
     $produto = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
 ?>
 <form enctype="multipart/form-data" action="../config/foto.php" method="post" >
 <div>
